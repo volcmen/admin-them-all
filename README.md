@@ -1,6 +1,6 @@
 ## Admin panel to control websites of schools.
 
-## Download and configure [server](dffdf).
+## Download and configure [server](https://github.com/volcmen/admin-them-all-api).
 
 ### Getting Started
 
