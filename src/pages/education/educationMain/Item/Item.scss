@@ -1,0 +1,21 @@
+.CardIMGS {
+  width: 100%;
+}
+
+.ItemElems {
+  margin: 0.5rem 0;
+}
+
+.IconDelete {
+  color: lighten(red, 10%);
+  position: absolute;
+  right: 3%;
+
+  &:hover {
+    color: purple;
+  }
+}
+
+.ContrlButtons {
+  width: 100%;
+}

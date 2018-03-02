@@ -1,0 +1,76 @@
+@import '../../styles/app';
+
+.title {
+  margin-top: 0;
+
+  @include clearfix();
+}
+
+.widget {
+  display: block;
+  position: relative;
+  margin-bottom: $grid-gutter-width;
+  padding: $widget-padding-vertical $widget-padding-horizontal;
+  background: $widget-bg;
+  border-radius: $border-radius-sm;
+
+  > header {
+    margin: (-$widget-padding-vertical) (-$widget-padding-horizontal);
+    padding: $widget-padding-vertical $widget-padding-horizontal;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-weight: $font-weight-semi-bold;
+      margin: 0;
+    }
+  }
+}
+
+.widgetBody {
+  margin-top: $widget-padding-vertical;
+}
+
+.widgetControls {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  padding: 14px;
+
+  a,
+  a:not([href]):not([tabindex]) {
+    padding: 1px 5px;
+    border-radius: 4px;
+    color: $widget-controls-color;
+
+    @include transition(color 0.15s ease-in-out);
+
+    &:hover {
+      color: rgba($black, 0.1);
+      text-decoration: none;
+    }
+
+    :global {
+      .fa {
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+}
+
+.inverse {
+  top: 2px;
+  position: relative;
+  margin-left: 3px;
+
+  :global {
+    .glyphicon {
+      vertical-align: baseline;
+    }
+  }
+}

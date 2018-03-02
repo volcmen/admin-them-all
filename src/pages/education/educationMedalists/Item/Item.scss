@@ -1,0 +1,37 @@
+.CardIMGS {
+  width: 100%;
+}
+
+.ItemElems {
+  margin: 0.5rem 0;
+}
+
+.IconDelete {
+  color: lighten(red, 10%);
+  position: absolute;
+  right: 3%;
+
+  &:hover {
+    color: purple;
+  }
+}
+
+.ContrlButtons {
+  width: 100%;
+}
+
+.DropDownMedalGold {
+  background-color: gold;
+
+  &:hover {
+    background-color: lighten(gold, 15);
+  }
+}
+
+.DropDownMedalSilver {
+  background-color: silver;
+
+  &:hover {
+    background-color: lighten(silver, 15);
+  }
+}

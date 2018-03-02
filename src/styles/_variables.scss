@@ -1,0 +1,316 @@
+// Light Blue variables
+// -------------------------
+// -------------------------
+
+// Glyphicons
+
+$glyphicons-halflings-class-prefix: glyphicon !default;
+$glyphicons-halflings-font-path: '../fonts/glyphicons' !default;
+
+// Font Awesome
+
+$fa-font-path: '../fonts/font-awesome' !default;
+
+// Bootstrap options
+
+$enable-shadows: true !default;
+
+// Colors
+// ------------------------
+
+$lime: #8cbf26 !default;
+$red: #f25118 !default;
+$red-dark: #d04f4f !default;
+$blue: #4e91ce !default;
+$green: #3ecd74 !default;
+$orange: #f2c34d !default;
+$pink: #e671b8 !default;
+$purple: #a700ae !default;
+$brown: #a05000 !default;
+$teal: #4ab0ce !default;
+$white: #fff !default;
+$black: #000 !default;
+
+$colors: $red, $orange, $lime, $green, $teal, $blue, $brown, $red-dark;
+$color-names: 'red', 'orange', 'lime', 'green', 'teal', 'blue', 'brown', 'red-dark';
+
+$gray-100: #f8f8f8 !default;
+$gray-200: #eee !default;
+$gray-300: #ddd !default;
+$gray-400: #999 !default;
+$gray-500: #777 !default;
+$gray-600: #666 !default;
+$gray-700: #555 !default;
+$gray-800: #343a40 !default;
+$gray-900: #222 !default;
+$black: #000 !default;
+
+$theme-colors: (
+        primary: $blue,
+        secondary: $gray-600,
+        success: $green,
+        info: $teal,
+        warning: $orange,
+        danger: $red,
+        light: $gray-100,
+        dark: $gray-800
+) !default;
+
+$bg-gradient-color-1: #154265;
+$bg-gradient-color-2: #7392c2;
+
+// Typography
+// -------------------------
+$text-color: $gray-100 !default;
+$text-muted: darken($text-color, 15%) !default;
+
+$font-family-sans-serif: 'Open Sans', sans-serif !default;
+$font-family-orbitron: 'Orbitron', sans-serif !default;
+$font-family-bungee-inline: 'Bungee Inline', cursive !default;
+
+$font-size-initial: 13px; // reset default browser value from 16px to 13px
+$font-size-base: 1rem !default;
+$font-size-lg: 1.25rem !default;
+$font-size-sm: 0.875rem !default;
+$font-size-larger: 1.1rem;
+$font-size-mini: 0.9rem;
+$font-size-index: 0.7rem;
+
+$small-font-size: 85%;
+
+$h5-font-size: $font-size-larger !default;
+
+$font-weight-bold: 700 !default;
+$font-weight-semi-bold: 600 !default;
+$font-weight-normal: 400 !default;
+$font-weight-thin: 300 !default;
+$font-weight-base: $font-weight-thin !default;
+
+$line-height-base: 1.428571429 !default; // 20/14
+$line-height-lg: 1.33 !default;
+
+// Links
+// -------------------------
+
+$link-color: saturate(lighten($blue, 25%), 50%);
+
+// Layout
+// -------------------------
+
+$wrap-margin: 185px;
+$sidebar-mt: 80px;
+$sidebar-width-open: 160px;
+
+// Scaffolding
+// -------------------------
+
+$basic-border-color: transparent;
+
+$widget-bg-common: #333 !default; //#ddd
+$widget-mb: 30px;
+$widget-color: $text-color;
+$widget-bg: rgba($widget-bg-common, 0.4);
+$widget-header-color: lighten($widget-color, 5%);
+$widget-header-smalls-color: $text-muted;
+$widget-controls-color: rgba($white, 0.45);
+
+$text-transparent: rgba($widget-bg-common, 0.5);
+$bg-addition: rgba($widget-bg-common, 0.3);
+
+$widget-padding-vertical: 15px;
+$widget-padding-horizontal: 17px;
+$widget-padding: $widget-padding-vertical $widget-padding-horizontal;
+
+$sidebar-bg-color: #242424 !default;
+$sidebar-color: $white;
+$sidebar-item-active-bg: rgba($black, 0.07);
+$sidebar-item-sub-active-bg: darken($sidebar-item-active-bg, 15%);
+
+$page-title-color: $white;
+
+$header-dropdown-bg: rgba($widget-bg-common, 0.85);
+$header-dropdown-item-hover: theme-color(primary);
+
+$nav-link-padding-x: 0.9rem;
+$navbar-padding-x: 2rem;
+$navbar-padding-y: 0.9rem;
+
+$input-transparent-color: $text-color;
+$input-transparent-placeholder-color: rgba(#eee, 0.76);
+
+// Widgets
+// -------------------------
+
+$nav-tabs-active-item-border: $basic-border-color;
+$nav-tabs-active-item-border-bottom: $basic-border-color;
+$nav-tabs-border: none;
+$nav-tabs-tab-content-bg: $bg-addition;
+$nav-tabs-link-bg: $widget-bg !default;
+
+$tabs-widget-active-item-hover-bg: rgba(darken($widget-bg-common, 10%), 0.4);
+
+$calendar-border: rgba($white, 0.33);
+
+$border-radius-base: 3px !default;
+
+// Buttons
+// -------------------------
+
+$btn-font-weight: $font-weight-base !default;
+
+// Forms
+// -------------------------
+
+$input-color: $gray-700;
+$input-border-color: #ccc !default;
+$input-focus-border-color: #66afe9 !default;
+
+$input-group-addon-bg: $bg-addition;
+$input-group-addon-border-color: transparent;
+
+$input-btn-padding-y-lg: 0.9rem !default;
+
+// Dropdowns
+// -------------------------
+
+$dropdown-bg: $white !default;
+$dropdown-border: rgba(0, 0, 0, 0.2) !default;
+
+$dropdown-link-active-color: #fff !default;
+$dropdown-link-active-bg: $blue !default;
+
+$dropdown-link-color: $gray-600 !default;
+$dropdown-link-hover-color: $white !default;
+$dropdown-link-hover-bg: $dropdown-link-active-bg !default;
+
+// Form states and alerts
+// -------------------------
+
+$state-success-text: $white !default;
+$state-success-border: #d6e9c6 !default;
+$state-success-bg: rgba($state-success-border, 0.28) !default;
+
+$state-info-text: $white !default;
+$state-info-border: #4ab0ce !default;
+$state-info-bg: rgba($state-info-border, 0.29) !default;
+
+$state-warning-text: $white !default;
+$state-warning-border: #e5be56 !default;
+$state-warning-bg: rgba($state-warning-border, 0.28) !default;
+
+$state-danger-text: $white !default;
+$state-danger-border: rgba(#f26349, 0.7) !default;
+$state-danger-bg: rgba($state-danger-border, 0.29) !default;
+
+// Badges
+// --------------------------
+
+$badge-font-size: $font-size-sm;
+$badge-font-weight: $font-weight-semi-bold;
+
+//== Tables
+//
+$table-accent-bg: $bg-addition !default;
+$table-hover-bg: darken($bg-addition, 5%);
+$table-border-color: rgba($widget-bg-common, 0.35) !default; // table and cell border
+
+// List group
+// -------------------------
+$list-group-bg: $widget-bg !default;
+$list-group-border-color: transparent !default;
+$list-group-hover-bg: $bg-addition;
+
+// Jumbotron
+// -------------------------
+
+$jumbotron-bg: transparent !default;
+
+// Popovers
+// -------------------------
+$popover-bg: rgba($widget-bg-common, 0.85) !default;
+$popover-arrow-color: $popover-bg !default;
+$popover-border-color: transparent;
+
+// Thumbnails
+// -------------------------
+$thumbnail-bg: $widget-bg;
+$thumbnail-border-width: 0;
+
+// Pagination
+// -------------------------
+
+$pagination-color: $text-color !default;
+$pagination-bg: transparent !default;
+$pagination-border-color: transparent !default;
+
+$pagination-hover-color: $white !default;
+$pagination-hover-bg: $bg-addition !default;
+$pagination-hover-border-color: transparent !default;
+
+$pagination-active-color: $white !default;
+$pagination-active-bg: $bg-addition !default;
+$pagination-active-border-color: transparent !default;
+
+$pagination-disabled-color: $gray-200 !default;
+$pagination-disabled-bg: transparent !default;
+$pagination-disabled-border-color: transparent !default;
+
+// Breadcrumbs
+// -------------------------
+$breadcrumb-color: $text-color !default;
+$breadcrumb-bg: transparent !default;
+$breadcrumb-divider-color: $text-color !default;
+$breadcrumb-active-color: darken($breadcrumb-divider-color, 25%) !default;
+$breadcrumb-divider: '>' !default;
+
+// Carousel
+// ------------------------
+
+$carousel-control-color: $widget-color;
+$carousel-control-width: 6% !default;
+$carousel-control-opacity: 1 !default;
+
+$carousel-indicator-active-bg: $red !default;
+
+// Thumbnails
+// -------------------------
+
+$thumbnail-bg: $widget-bg;
+$thumbnail-border-width: 0;
+$thumbnail-padding: 0.31rem;
+
+// Card
+// -------------------------
+
+$card-bg: $bg-addition !default;
+$card-border-color: transparent !default;
+$card-padding: 0.31rem;
+$card-spacer-x: 0.69rem;
+$card-spacer-y: 0.69rem;
+
+// Code (inline and block)
+// --------------------------------------------------
+
+$pre-color: $text-color !default;
+
+// Type
+// --------------------------------------------------
+
+$blockquote-border-color: $widget-bg;
+$blockquote-border-width: 0.4rem !default;
+
+// Awesome Checkbox
+// ------------------------
+$awesome-checkbox-default-color: #eee !default;
+
+// Section
+// -------------------------
+
+$section-margin-bottom: 1.39rem; //~18px
+$section-padding-top: 0.77rem; //~10px
+
+// Messenger
+// -------------------------
+$bg-messenger-color: rgba(51, 51, 51, 0.3);
+$bg-messenger-bit-color: rgba(26, 26, 26, 0.3);
+$bg-messenger-bit-hover-color: rgba(13, 13, 13, 0.3);

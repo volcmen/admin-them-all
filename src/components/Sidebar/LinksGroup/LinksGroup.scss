@@ -1,0 +1,54 @@
+@import '../../../styles/app';
+
+.headerLink {
+  a {
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    color: $sidebar-color;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: $border-radius;
+
+    &:hover,
+    &:focus {
+      background: $sidebar-item-active-bg;
+    }
+
+    > i {
+      margin-right: 7px;
+    }
+  }
+
+  .icon {
+    width: 16px;
+    margin-right: 8px;
+    float: left;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: right;
+
+    i {
+      opacity: 0.4;
+    }
+  }
+
+  .panel a {
+    padding: 4px 20px 4px 50px;
+  }
+}
+
+a.headerLinkActive {
+  font-weight: 700;
+}
+
+.collapsed .caret {
+  transform: rotate(-90deg);
+}
+
+.caret {
+  float: right;
+  margin-right: -8px;
+
+  @include transition(transform 0.3s ease-in-out);
+}
